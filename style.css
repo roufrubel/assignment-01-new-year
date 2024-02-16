@@ -13,7 +13,7 @@
 .header-title{
     text-align: center;
     height: 300px;
-    color: rgb(226, 226, 2);
+    color: rgb(30, 151, 0);
     position: absolute;
     left: 30%;
     top: 25%; 
@@ -124,4 +124,59 @@
     border-top-right-radius: 18px;
     border-bottom-right-radius: 18px;
     margin-left: -10px;
+}
+
+/* footer section styles */
+.footer-section{
+    background-color: #2c2a31;
+    width: 1320px;
+    height: 500px;
+}
+.footer-first-section{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 150px;
+    border-bottom: solid 1px #8b8b8b;
+}
+#phone{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: -16px; 
+}
+#phone img{
+    height: 80%;
+    margin-right: 10px;
+}
+#website{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#website img{
+    height: 80%;
+    margin-right: 10px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: solid 1px #8b8b8b;
+}
+.social-media img{
+    margin: 10px;
+}
+.footer-last-section{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
 }
